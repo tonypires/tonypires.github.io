@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 #
 
-domain: tonypires.github.io
+domain: tonypires.github.io/Jekyll
 
 title: Welcome to your new blog
 email: your-email@example.com
@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/Jekyll/" # the subpath of your site, e.g. /blog
-url: "https://tonypires.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tonypires.github.io/Jekyll" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 
