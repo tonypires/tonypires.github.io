@@ -1,0 +1,2 @@
+The existance of this file tells GitHub this isn't a Jekyll site and to avoid using 
+Jekyll build tools in it's GitHub Action for building / deploying GitHub pages.
