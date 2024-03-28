@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elegant single-page wedding website with details about the date, time, location, and an RSVP form for guests.">
+    <title>Our Wedding</title>
+    <style>body { font-family: "Lora", serif; color: rgb(68, 68, 68); margin: 0; background: url("https://images.unsplash.com/photo-1667964242917-0a6e1a11e8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTIyMzN8MHwxfHNlYXJjaHwzfHxPdXIlMjBXZWRkaW5nfGVufDB8MHx8fDE3MTE2MjM0NzZ8MA&ixlib=rb-4.0.3&q=80&w=1080") rgb(244, 240, 236) }
+.navigation { display: flex; justify-content: center; list-style: none; padding: 20px 0; background: url("https://images.unsplash.com/photo-1668428287754-8655ab9cd755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTIyMzN8MHwxfHNlYXJjaHw1fHxPdXIlMjBXZWRkaW5nfGVufDB8MHx8fDE3MTE2MjM0NzZ8MA&ixlib=rb-4.0.3&q=80&w=1080") rgba(255, 255, 255, 0.9); position: sticky; top: 0; z-index: 1000 }
+.navigation li a { color: rgb(68, 68, 68); padding: 0 15px; text-decoration: none; font-size: 18px }
+section { padding: 60px 20px; text-align: center }
+.hero { background: url("https://images.unsplash.com/photo-1532247993688-7eab533efeba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTIyMzN8MHwxfHNlYXJjaHwyfHxPdXIlMjBXZWRkaW5nfGVufDB8MHx8fDE3MTE2MjM0NzZ8MA&ixlib=rb-4.0.3&q=80&w=1080") center center / cover no-repeat; color: rgb(255, 255, 255); padding: 100px 20px }
+.date,.time,.location,.rsvp { background: url("https://images.unsplash.com/photo-1678593284631-fa996b9f8fc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTIyMzN8MHwxfHNlYXJjaHw4fHxPdXIlMjBXZWRkaW5nfGVufDB8MHx8fDE3MTE2MjM0NzZ8MA&ixlib=rb-4.0.3&q=80&w=1080") rgba(255, 255, 255, 0.8); margin: 20px 0 }
+.rsvp form { max-width: 400px; margin: auto }
+.rsvp input,.rsvp textarea { width: 100%; margin: 10px 0; padding: 10px }
+.rsvp button { background: url("https://images.unsplash.com/photo-1678593284225-412d9bb9972f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTIyMzN8MHwxfHNlYXJjaHw2fHxPdXIlMjBXZWRkaW5nfGVufDB8MHx8fDE3MTE2MjM0NzZ8MA&ixlib=rb-4.0.3&q=80&w=1080") rgb(145, 117, 100); color: rgb(255, 255, 255); border: none; padding: 10px 20px; cursor: pointer }</style>
+</head>
+<body>
+    <ul class="navigation">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#date">Date</a></li>
+        <li><a href="#time">Time</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+    </ul>
+    <header id="introduction" class="hero">
+        <h1>Welcome to Our Wedding</h1>
+        <p>Join us in celebrating our love.</p>
+    </header>
+    <section id="date" class="date">
+        <h2>Wedding Date</h2>
+        <p>September 12, 2024</p>
+    </section>
+    <section id="time" class="time">
+        <h2>Ceremony Time</h2>
+        <p>4:00 PM</p>
+    </section>
+    <section id="location" class="location">
+        <h2>Venue Location</h2>
+        <p>Dreamy Meadows, Springfield</p>
+    </section>
+    <section id="rsvp" class="rsvp">
+        <h2>RSVP</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required="">
+            <input type="email" placeholder="Your Email" required="">
+            <textarea placeholder="Message (Optional)"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
